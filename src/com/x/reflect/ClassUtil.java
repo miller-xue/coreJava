@@ -58,7 +58,7 @@ public class ClassUtil {
 
         for (Field field : fields) {
             Class fieldType = field.getType();
-            String typeName = fieldType.getTypeName();
+            String typeName = fieldType.getName();
             //得到成员变量的名称
             String name = field.getName();
             System.out.println(typeName + " " + name);
